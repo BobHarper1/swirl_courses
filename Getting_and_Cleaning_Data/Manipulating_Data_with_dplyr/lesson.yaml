@@ -115,7 +115,7 @@
   Hint: select(cran, country:r_arch) will select all columns starting from country and ending with r_arch (right to left).
 
 - Class: cmd_question
-  Output: Print the entire dataset again, just to remind yourself of what it looks like. You can do this at anytime during the lesson.
+  Output: Print the entire dataset again, just to remind yourself of what it looks like. You can do this at any time during the lesson.
   CorrectAnswer: cran
   AnswerTests: omnitest(correctExpr='cran')
   Hint: Print cran to the console to remind yourself what it looks like.
@@ -133,7 +133,7 @@
   Hint: See what -5:20 gives us.
 
 - Class: cmd_question
-  Output: Oops! That gaves us a vector of numbers from -5 through 20, which is not what we want. Instead, we want to negate the entire sequence of numbers from 5 through 20, so that we get -5, -6, -7, ... , -18, -19, -20. Try the same thing, except surround 5:20 with parentheses so that R knows we want it to first come up with the sequence of numbers, then apply the negative sign to the whole thing.
+  Output: Oops! That gave us a vector of numbers from -5 through 20, which is not what we want. Instead, we want to negate the entire sequence of numbers from 5 through 20, so that we get -5, -6, -7, ... , -18, -19, -20. Try the same thing, except surround 5:20 with parentheses so that R knows we want it to first come up with the sequence of numbers, then apply the negative sign to the whole thing.
   CorrectAnswer: -(5:20)
   AnswerTests: omnitest(correctExpr='-(5:20)')
   Hint: -(5:20) will do the job.
